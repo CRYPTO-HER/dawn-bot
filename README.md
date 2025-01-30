@@ -64,15 +64,21 @@ Invite your friends and colleagues to join! 🚀
 ### Account Registration
 - Successful registrations will be saved in the `reg_goods.txt` file.
 - Emails that failed to register will be listed in the `reg_bads.txt` file.
-### Preparing Accounts for Farming
-- Move successfully registered accounts from `reg_goods.txt` to the `accs.txt` file in the `Data` folder.
-- Ensure `proxy.txt` contains proxies in the required format.
-- Start the farming process.
 ### Email Verification
 - Place accounts to be verified in the `accs.txt` file in the `Data` folder.
 - Use the `proxy.txt` file for proxies in the specified format.
 - Successfully verified accounts will be saved in `approveEmail_goods.txt`.
 - Failed verifications will be listed in `approveEmail_bads.txt`. These accounts can be reattempted, as some might pass on subsequent tries.
+### Account authorization
+- Place accounts to be authorized in the `accs.txt` file in the `Data` folder.
+- Use the `proxy.txt` file for proxies in the specified format.
+- Successfully authorized accounts will be saved in `auth_goods.txt`.
+- Failed authorization will be listed in `auth_bads.txt`. These accounts can be reattempted, as some might pass on subsequent tries.
+### Preparing Accounts for Farming
+- **YOU HAVE TO COMPLETE FULL PROCESS BEFORE FARMING: Register account, approve email, authorize to account after approve. Without all this actions accounts not ready for farming**
+- Move successfully registered accounts from `auth_goods.txt` to the `accs.txt` file in the `Data` folder.
+- Ensure `proxy.txt` contains proxies in the required format.
+- Start the farming process.
 ### Collecting Rewards
 - The Collect Rewards module gathers available rewards for linking telegram,discord, twitter(but u don't need to have reall accounts).
 - Add accounts for reward collection to the `accs.txt` file in the `Data` folder.
