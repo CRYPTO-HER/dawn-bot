@@ -53,7 +53,7 @@ Invite your friends and colleagues to join! 🚀
 
 ### Setting Up CAPTCHA Key
 - In the `Data` folder, open the `config.ini` file.
-- Specify the CAPTCHA-solving service `api key` for 2captcha
+- Specify the CAPTCHA-solving service `api key` for [2captcha.com](https://2captcha.com/?from=24925001)
 ### Adding Email Accounts
 - In the `Data` folder, use the `emails.txt` file.
 - Add email accounts in the format: `email:password`.
