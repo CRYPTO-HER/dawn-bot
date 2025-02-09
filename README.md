@@ -80,7 +80,7 @@ Invite your friends and colleagues to join! 🚀
 - Ensure `proxy.txt` contains proxies in the required format.
 - Start the farming process.
 ### Collecting Rewards
-- The Collect Rewards module gathers available rewards for linking telegram,discord, twitter(but u don't need to have reall accounts).
+- The Collect Rewards module gathers available rewards for linking telegram,discord, twitter(but u don't need to have real accounts).
 - Add accounts for reward collection to the `accs.txt` file in the `Data` folder.
 - Use `proxy.txt` for proxies.
 ### Collecting statistics
